@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Network Ads</title>
+</head>
+<body>
+    <h2>Enter Feature Values:</h2>
+    <form action="/predict" method="post">
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age"><br><br>
+        
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value=1>Male</option>
+            <option value=0>Female</option>
+        </select><br><br>
+        
+        <label for="salary">Estimated Salary:</label>
+        <input type="text" id="salary" name="salary"><br><br>
+        
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
